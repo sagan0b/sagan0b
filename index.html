@@ -1,0 +1,487 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+        <title>Home- Avenue Fashion</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="style.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        </head>
+    <body>
+        <section id="pageHeader">
+        <div id="topBar" class="row">
+            <div class="column dropdown">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <p>Currency : GBP <i class="fas fa-angle-down"></i></p>
+                        </li>
+                    </ul>     
+                </div> 
+                <div class="dropdown-content container">
+                    <ul>
+                        <li>
+                            <p>Currency : GBP1</p>
+                        </li>
+                        <li>
+                            <p>Currency : GBP2</p>
+                        </li>
+                        <li>
+                            <p>Currency : GBP3</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="column userPanel">
+                <div id="panel">
+                    <a href="#">Register</a>
+                    <a href="#">Sign In</a>
+                    <a href="#"><i class="fas fa-shopping-basket"></i> Empty</a>
+                </div>   
+            </div>
+        </div>
+
+        
+            <div class="navigationBar row">
+                <div class="column">
+                    <p id="logo">AVENUE <b>FASHION</b></p>
+                </div>
+                     <div class="mainMenu column">
+                        <div class="category">    
+                           <a href="#">MEN <i class="fas fa-angle-down"></i></a>
+                           <div class="categoryDropdown">
+                               <div class="row">
+                                    <div class="column">    
+                                        <p>CASUALS</p>
+                                        <a href="#">Jackets</a>
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                        <a href="#">Polo Shirts</a>
+                                        <a href="#">Sportswear</a>
+                                        <a href="#">Trousers & Chinos</a>
+                                        <a href="#">T-shirts</a>
+                                    </div>
+                                    <div class="column">    
+                                        <p>FORMAL</p>
+                                        <a href="#">Jackets</a>
+                                        <a href="#">Shirts</a>
+                                        <a href="#">Polo Suits</a>
+                                        <a href="#">Trousers</a>
+                                    </div>
+                                </div> 
+                                <div class="">
+                                    <img src="img\banner.jpg" alt="promoBanner">
+                                </div>     
+                            </div>
+                        </div>    
+                            <div class="category">
+                                <a href="#">WOMEN <i class="fas fa-angle-down"></i></a>
+                                <div class="categoryDropdown">
+                                    <div class="row">
+                                        <div class="column">    
+                                            <p>CASUALS</p>
+                                            <a href="#">Jackets</a>
+                                            <a href="#">Dresses</a>
+                                            <a href="#">Skirts</a>
+                                            <a href="#">Jeans</a>
+                                            <a href="#">Blouses</a>
+                                            <a href="#">Sportswear</a>
+                                        </div>
+                                        <div class="column">    
+                                            <p>FORMAL</p>
+                                            <a href="#">Dresses</a>
+                                            <a href="#">Skirts</a>
+                                            <a href="#">Blouses</a>
+                                            <a href="#">Trousers</a>
+                                        </div>
+                                    </div>  
+                                    <div class="">
+                                        <img src="img\banner.jpg" alt="promoBanner">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="category">
+                                <a href="#">THE BRAND</a>
+                            </div>
+                            <div class="category">
+                                <a href="#">LOCAL STORES</a>
+                            </div>
+                            <div class="category">
+                                <a href="#">LOOK BOOK <i class="fas fa-angle-down"></i></a>
+                                    <div class="categoryDropdown">
+                                        <div class="row">
+                                            <div class="column">    
+                                                <p>OUR LOOKBOOKS</p>
+                                                <a href="#">Latest Posts (mixed)</a>
+                                                <a href="#">Men's Lookbook</a>
+                                                <a href="#">Women's Lookbook</a>
+                                            </div>
+                                            <div class="column">    
+                                                <p>YOUR LOOKBOOK</p>
+                                                <a href="#">View and Edit</a>
+                                                <a href="#">Share</a>
+                                                <a href="#">Delete</a>
+                                            </div>
+                                        </div>  
+                                        <div class="">
+                                            <img src="img\banner.jpg" alt="promoBanner">
+                                        </div>  
+                                    </div>
+                                </div>          
+               </div>
+            </div>
+        <div class="headerBanner">
+            <div class="slider">
+                <img  class="img-fluid" src="img\slider.jpg" alt="mainSlider">
+            </div>
+        </div>
+    </section>
+    <section id="Items">
+        <div class="productsTab">
+            <button id="popularButton" class="tablinks" onclick="openProductsTab(event,'popular')">POPULAR</button>
+            <button class="tablinks" onclick="openProductsTab(event,'newArrivals')">NEW ARRIVALS</button>
+            <button class="tablinks" onclick="openProductsTab(event,'bestsellesr')">BEST SELLERS</button>
+            <button class="tablinks" onclick="openProductsTab(event,'specialOffers')">SPECIAL OFFERS</button>
+            <button class="tablinks" onclick="openProductsTab(event,'comingSoon')">COMING SOON</button>
+        </div>
+        <div id="popular" class="tabsContent">
+            <div class="row gallery">
+                <div class="column gallery">
+                    <div class="row">
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo1.jpg" alt="popularPhoto1">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>47.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo2.jpg" alt="popularPhoto2">
+                        </div>
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>69.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo3.jpg" alt="popularPhoto3">
+                        </div>
+                    </div>    
+                </div>
+                <div class="column gallery">
+                    <div class="row">
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup><s>107</s></p>
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo4.jpg" alt="popularPhoto4">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>29.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo5.jpg" alt="popularPhoto5">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>34.79</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo6.jpg" alt="popularPhoto6">
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+        </div>
+        <div id="newArrivals" class="tabsContent">
+            <div class="row gallery">
+                <div class="column gallery">
+                    <div class="row">
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>39.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo9.jpg" alt="newPhoto9">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>59.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo7.jpg" alt="newPhoto7">
+                        </div>
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>49.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo10.jpg" alt="newPhoto10">
+                        </div>
+                    </div>    
+                </div>
+                <div class="column gallery">
+                    <div class="row">
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>69.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo11.jpg" alt="newPhoto11">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>29.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo8.jpg" alt="newPhoto8">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>47.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo2.jpg" alt="newPhoto2">
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+        </div>
+        <div id="bestsellesr" class="tabsContent">
+            <div class="row gallery">
+                <div class="column gallery">
+                    <div class="row">
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo1.jpg" alt="popularPhoto1">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>47.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo2.jpg" alt="popularPhoto2">
+                        </div>
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>69.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo3.jpg" alt="popularPhoto3">
+                        </div>
+                    </div>    
+                </div>
+                <div class="column gallery">
+                    <div class="row">
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup><s>107</s></p>
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo4.jpg" alt="popularPhoto4">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>29.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo5.jpg" alt="popularPhoto5">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>34.79</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo6.jpg" alt="popularPhoto6">
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+        </div>
+        <div id="specialOffers" class="tabsContent">
+            <div class="row gallery">
+                <div class="column gallery">
+                    <div class="row">
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo1.jpg" alt="popularPhoto1">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>47.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo2.jpg" alt="popularPhoto2">
+                        </div>
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>69.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo3.jpg" alt="popularPhoto3">
+                        </div>
+                    </div>    
+                </div>
+                <div class="column gallery">
+                    <div class="row">
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup><s>107</s></p>
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo4.jpg" alt="popularPhoto4">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>29.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo5.jpg" alt="popularPhoto5">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>34.79</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo6.jpg" alt="popularPhoto6">
+                        </div>
+                    </div>    
+                </div>        
+            </div>>
+        </div>
+        <div id="comingSoon" class="tabsContent">
+            <div class="row gallery">
+                <div class="column gallery">
+                    <div class="row">
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo1.jpg" alt="popularPhoto1">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>47.50</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo2.jpg" alt="popularPhoto2">
+                        </div>
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>69.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo3.jpg" alt="popularPhoto3">
+                        </div>
+                    </div>    
+                </div>
+                <div class="column gallery">
+                    <div class="row">
+                        <div class=" galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup><s>107</s></p>
+                                <p><sup>£</sup>89.99</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo4.jpg" alt="popularPhoto4">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>29.95</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo5.jpg" alt="popularPhoto5">
+                        </div>
+                        <div class="column galleryElement">
+                            <div class="price">
+                                <p><sup>£</sup>34.79</p>
+                            </div>
+                            <img class="img-fluid" src="img\photo6.jpg" alt="popularPhoto6">
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="Lookbook">
+        <div class="row look-book">
+            <div class="column-3 look-book-content">
+                    <div class="look-book-title">
+                        <p class="p-title"><b>men's</b> lookbook</p>
+                        <p class="p-content">Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor.</p>
+                        <button class="main-button">view now</button>
+                    </div>   
+                <img class="img-fluid" src="img\lookbookMen.jpg">
+            </div>
+            <div class="column-3 look-book-content">
+                <div class="look-book-title">
+                    <p class="p-title"><b>women's</b> lookbook</p>
+                    <p class="p-content">Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor.</p>
+                    <button class="main-button">view now</button>
+                </div>
+                <img class="img-fluid" src="img\lookbookWomen.jpg">
+            </div>
+            <div  class="column-3 look-book-content">
+                <div class="look-book-title">
+                    <p class="p-title"><b>your</b> lookbook</p>
+                    <p class="p-content">Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor.</p>
+                    <button class="main-button">view now</button>
+                </div>
+                <img class="img-fluid" src="img\lookbookYour.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="row footer-navigation">
+            <div class="column-5 footer-navigation-menu">
+                <p>information</p>
+                <a href="#">The brand</a>
+                <a href="#">Local stores</a>
+                <a href="#">Customer service</a>
+                <a href="#">Privacy & cookies</a>
+                <a href="#">Site map</a>
+            </div>
+            <div class="column-5 footer-navigation-menu">
+                <p>why buy from us</p>
+                <a href="#">Shippings & returns</a>
+                <a href="#">Secure shopping</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Award winning</a>
+                <a href="#">Ethical tradng</a>
+            </div>
+            <div class="column-5 footer-navigation-menu">
+                <p>your account</p>
+                <a href="#">Sign in</a>
+                <a href="#">Register</a>
+                <a href="#">View card</a>
+                <a href="#">Track an order</a>
+                <a href="#">Update information</a>
+            </div>
+            <div class="column-5 footer-navigation-menu">
+                <p>lookbook</p>
+                <a href="#">Latest posts</a>
+                <a href="#">Men's lookbook</a>
+                <a href="#">Women's lookbook</a>
+                <a href="#">Lookbooks RSS feed</a>
+                <a href="#">View your lookbook</a>
+                <a href="#">Delete your lookbook</a>
+            </div>
+            <div class="column-5 footer-navigation-menu">
+                <p>contact details</p>
+                <a>Head Office: Avenue Fashion, 180-182 Regent Street, London.</a>
+                <a>Telephone: 0123-456-789</a>
+                <a>Email: support@yourwebsite.com</a>
+
+            </div>
+        </div>
+        <div id="foot-area" class="row">
+                <div class="column banner-footer">
+                    <img src="img\awardBanner.jpg" alt="awardBanner">
+                </div>
+                <div class="column social">
+                    <div>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>    
+                </div>
+        </div>
+        <div class="copyright">
+            <a href="#">©2016 Avenue Fashion™</a>
+            <a href="#">Design by RobbyDesigns.com</a>
+        </div>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,329 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+#topBar{
+    background-color: #333333;
+    width: 100%;
+}
+
+#panel{
+    float: right;
+    padding-right: 2em;
+}
+
+.userPanel a{
+    display: inline-block;
+    color: #777777;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 0.5em 0 0.5em;
+    height: 100%;
+    padding-top: 0.5em;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: #777777;
+    font-size: 1em;
+    font-weight: 500;
+    padding-top: 0.5em;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: #333333;
+    position: absolute;
+    z-index: 1;
+}
+
+#logo{
+    font-size: 1.5em;
+    padding-left: 2em;
+    position: relative;
+}
+
+.mainMenu{
+    float: right;
+    padding-right: 2em;
+}
+.mainMenu p{
+    display: inline-block;
+}
+.mainMenu a{
+    color: #222222;
+    padding: 0 0.5em 0 0.5em;
+    font-weight: 500;
+}
+
+.navigationBar{
+    padding-top: 2em;
+    width: 100%;
+    position: absolute;
+}
+
+.category{
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+   
+}
+
+.categoryDropdown p{
+    font-weight: bold;
+
+}
+
+.categoryDropdown a{
+    font-weight: lighter;
+    display: block;
+    padding: 0.5em;
+}
+
+.categoryDropdown{
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 2em;
+    position: absolute;
+    min-width: max-content;
+    background-color: #ffffff;
+}
+
+.main-button{
+    text-transform: uppercase;
+    border: 0.05em solid;
+    background: none;
+    width: 60%;
+    height: 3em;
+    float: right;
+
+}
+
+.main-button:hover{
+    border: none;
+    background-color: #00c8c8;
+    color: #ffffff;
+}
+.column{
+    width: 50%;
+}
+
+.headerBanner{
+    max-width: 100%;
+}
+
+.slider{
+    max-width: 100%;
+    
+}
+
+.productsTab button{
+    color: #222222;
+    padding-top: 5em;
+    padding-left: 2em;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+
+.productsTab button:hover{
+    color: #00c8c8;
+}
+
+.productsTab button.active{
+    color: #00c8c8;
+}
+
+.productsTab button:focus{
+    outline: 0;
+}
+
+.tabsContent{
+    display: none;
+}
+
+.dropdown-content li:hover{
+    background-color: #00c8c8;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.gallery{
+    max-width: 100%;
+    padding: 1em;
+}
+
+.galleryElement{
+    padding: 2em  0 0 2em;
+    max-width: 100%;
+}
+
+.price{
+    position: absolute;
+    font-weight: lighter;
+    color: 9a9a9a;
+    padding: 1em 0 0 1em;
+}
+
+.price p{
+    display: inline-block;
+}
+
+.column-3{
+    width: 33.33%;
+}
+
+.column-5{
+    width: 20%;
+}
+
+.look-book{
+    width: 100%;
+    padding-left: 2em;
+
+}
+
+.look-book-content{
+   
+    padding: 2em 1em 0 1em;
+    position: relative;
+
+}
+
+.look-book-title{
+    right: 0;
+    position: absolute;
+    max-width: 55%;
+    padding-right: 2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.p-title{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.p-content{
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.look-book-title p{
+    text-align: right;
+    float: right;
+    
+}
+
+.footer-navigation{
+    max-width: 100%;
+    padding: 2em;
+    
+}
+
+.footer-navigation-menu{
+    padding: 1em;
+}
+
+.footer-navigation-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-navigation-menu a{
+    display: block;
+    color: #222222;
+}
+
+.footer-navigation-menu a:hover{
+    text-decoration: none;
+    color: #00c8c8;
+}
+
+.userPanel a:hover{
+    background-color: #00c8c8;
+    color: #ffffff;
+    text-decoration: none;   
+ 
+}
+
+.mainMenu a:hover{
+    text-decoration: none;
+    color: #00c8c8;
+}
+
+
+.category:hover .categoryDropdown{
+    display: block;
+    left: auto;
+    right: 0.1em;
+}
+
+#footer{
+    background-color: #f8f8f8;
+    margin-top: 4em;
+}
+
+
+.social{
+    background-color: #00c8c8;
+    width: 50%;
+    height: 12.5em;
+    position: relative;
+}
+
+.social a{
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    display: inline-block;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.social div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social a:hover{
+    color: #00c8c8;
+    background-color: #ffffff;
+}
+
+#foot-area{
+    max-width: 100%;
+    padding: 2em;
+}
+
+.banner-footer{
+    padding-left: 1.5em;
+}
+
+.copyright{
+    max-width: 100%;
+    background-color: #222222;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+.copyright a{
+    color: #999999;
+}
+
+.copyright a:hover{
+    color: #00c8c8;
+    text-decoration: none;
+}
+
